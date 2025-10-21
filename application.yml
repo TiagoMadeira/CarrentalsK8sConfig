@@ -8,6 +8,7 @@ spec:
     source:
         repoURL: https://github.com/TiagoMadeira/CarrentalsK8sConfig.git
         targetRevision: HEAD
+        path: staging
     destination:
         server: https://kubernetes.default.svc
         namespace: default
